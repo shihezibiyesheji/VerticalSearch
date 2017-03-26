@@ -1,0 +1,8 @@
+框架使用说明：
+	1.将项目名称改为想要的项目的名称，并将Properties中的Web project settings中的context root改为项目名；；
+	2.首相在mybatis-config.xml中删除我们不需要的mapper
+	3.修改jdbc.properties中的参数配置，将参数配置为项目数据库所使用的参数
+	4.将dataSource.xml的46行的包mapper包改为我们实际的mapper包
+	5.将applicationContext.xml中的18行改为相应的service包
+	6.将DemoMapping.xml中的相应的mapper改好
+	7.springmvc.xml中的相应的包名
